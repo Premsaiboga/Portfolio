@@ -1,0 +1,61 @@
+/* Luxury-themed Navbar */
+
+.navbar-custom {
+  background-color: rgba(11, 12, 16, 0.95); /* Deep charcoal with slight transparency */
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(192, 160, 98, 0.3);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-custom.scrolled {
+  background-color: #0b0c10; /* solid background on scroll */
+}
+
+.brand-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #c0a062 !important; /* gold */
+  letter-spacing: 1px;
+  transition: color 0.3s ease-in-out;
+}
+
+.brand-logo:hover {
+  transform: scale(2.2);
+  box-shadow: 0 0 20px rgba(240, 199, 94, 0.8);
+}
+
+.brand-area{
+    display: flex;
+  align-items: center;
+}
+
+.brand-logo{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #c0a062;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(192, 160, 98, 0.5);
+  transition: all 0.3s ease;
+}
+
+
+.brand-text:hover {
+  color: #f0c75e !important; /* brighter gold hover */
+}
+
+.nav-links .nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-links .nav-link:hover {
+  color: #c0a062 !important;
+  text-shadow: 0 0 5px rgba(192, 160, 98, 0.6);
+}
+
+.navbar-toggler {
+  border-color: #c0a062 !important;
+}
