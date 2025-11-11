@@ -58,7 +58,7 @@ const Skills = () => {
           name: "n8n",
           icon: (
             <img
-              src="/public/n8n.png"
+              src="/n8n.png"
               alt="n8n"
               className="custom-icon"
             />
